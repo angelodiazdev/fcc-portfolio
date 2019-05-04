@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbar {
+  background: #333;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: end;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li {
+  padding: 20px 40px;
+}
+
+#welcome-section {
+  background: url('https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.edx.org%2Fwp-content%2Fuploads%2F2016%2F07%2FFrontEndDev.jpg&f=1') no-repeat center center/cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  color: #fff;
+  padding-top: 20rem;
+}
+
+#projects {
+  background: #ddd;
+  padding: 200px 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 50px;
+}
+
+#projects .project-tile {
+  border: 1px solid #000;
+}
+
+.project-tile img {
+  max-width: 390px;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.project-tile p {
+  text-align: center;
+}
