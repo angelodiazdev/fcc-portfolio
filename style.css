@@ -54,12 +54,14 @@ a {
 }
 
 #projects .project-tile {
-  border: 1px solid #000;
+  border: 2px solid #000;
+  border-radius: 5px;
 }
 
 .project-tile img {
   max-width: 390px;
   min-height: 300px;
+  /* max-height: 310px; */
   padding: 10px;
 }
 
@@ -67,4 +69,5 @@ a {
   text-align: center;
   font-weight: bold;
   letter-spacing: 2px;
+  padding-bottom: 5px;
 }
